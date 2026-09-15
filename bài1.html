@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trang giới thiệu cá nhân của sinh viên">
+    <meta name="author" content="Nguyễn Văn A">
+    <meta name="keywords" content="sinh viên, CNTT, giới thiệu">
+    <title>Giới thiệu bản thân – Nguyễn Văn A</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf4fc;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .card {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #008080, #ff7f50);
+            color: white;
+            padding: 25px 30px;
+            position: relative;
+        }
+        header h1 { margin: 0; font-size: 24px; text-transform: uppercase; }
+        header h2 { margin: 5px 0 0; font-size: 14px; font-weight: normal; opacity: 0.9; }
+        .avatar {
+            position: absolute;
+            right: 30px;
+            top: 20px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            background: #ccc;
+        }
+        nav {
+            background: #f0f4f8;
+            padding: 10px 30px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #008080;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 14px;
+        }
+        main {
+            display: flex;
+            padding: 30px;
+            gap: 20px;
+        }
+        section { flex: 1; }
+        section h2 { font-size: 16px; color: #008080; border-bottom: 2px solid #008080; padding-bottom: 5px; margin-top: 0; }
+        ul { padding-left: 20px; margin: 0; }
+        li { margin-bottom: 8px; font-size: 13px; }
+        address { font-style: normal; font-size: 13px; line-height: 1.6; }
+        footer {
+            background: #20b2aa;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <header>
+            <hgroup>
+                <h1>HỌ VÀ TÊN SINH VIÊN</h1>
+                <h2>Sinh viên CNTT - Lớp CNTT-01</h2>
+            </hgroup>
+            <div class="avatar"></div>
+        </header>
+
+        <nav>
+            <a href="#gioithieu">GIỚI THIỆU</a>
+            <a href="#kynang">KỸ NĂNG</a>
+            <a href="#lienhe">LIÊN HỆ</a>
+        </nav>
+
+        <main>
+            <section id="gioithieu">
+                <h2>Giới thiệu</h2>
+                <p style="font-size: 13px; line-height: 1.5;">I am a passion for mintion o IT (HỌ TÊN SINH VIÊN), hiện từ năm hai, sử dụng của huấn tân trị công nghệ và phát triển sứ web sith.</p>
+                <p style="font-size: 13px; line-height: 1.5;">Làm việc mạc lắc cho coding viên và hàng thành học diện của Lập trình, tâm frontend, trình kỹ năng triết học trong khóa tước hiện động.</p>
+            </section>
+
+            <section id="kynang">
+                <h2>Kỹ năng</h2>
+                <ul>
+                    <li>Thiết kế Web (HTML5, CSS3, JS)</li>
+                    <li>Lập trình Backend cơ bản</li>
+                    <li>Sử dụng Git & GitHub</li>
+                    <li>Thiết kế Responsive</li>
+                </ul>
+            </section>
+
+            <section id="lienhe">
+                <h2>Liên hệ</h2>
+                <address>
+                    <strong>Address</strong><br>
+                    ✉ email@sv.edu.vn<br>
+                    📞 0901-234-567
+                </address>
+            </section>
+        </main>
+
+        <footer>
+            © 2024 – [HỌ TÊN SINH VIÊN]. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
